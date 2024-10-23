@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('backimg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #333;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    z-index: 100;
+}
+nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #f4a261;
+    color: #000;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 20px 20px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    text-align: center;
+    color: #2a9d8f;
+}
+p, ul {
+    line-height: 1.6;
+}
+.section {
+    margin-bottom: 40px;
+}
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #2a9d8f;
+}
+.skills-list, .project-list {
+    list-style-type: none;
+    padding: 0;
+}
+.skills-list li, .project-list li {
+    margin: 10px 0;
+}
+.skills-list li:before {
+    content: "★ ";
+    color: #f4a261;
+}
+.project-links a {
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: #2a9d8f;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.project-links a:hover {
+    background-color: #264653;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2a9d8f;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
